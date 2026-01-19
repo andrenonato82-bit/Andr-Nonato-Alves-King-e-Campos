@@ -64,7 +64,7 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
       id: 'palacio-helio-campos',
       title: 'Palácio Senador Hélio Campos',
       category: 'Edifício Público',
-      imageUrl: 'https://picsum.photos/id/122/800/600',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Pal%C3%A1cio_Senador_H%C3%A9lio_Campos_-_Boa_Vista_-_Roraima.jpg/800px-Pal%C3%A1cio_Senador_H%C3%A9lio_Campos_-_Boa_Vista_-_Roraima.jpg',
       mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Palacio+Senador+Helio+Campos+Boa+Vista+RR',
       officialVersion: 'Sede do governo, nomeada em homenagem a Hélio Campos, governador nomeado na Ditadura e eleito senador.',
       criticalAnalysis: 'Antigo "Palácio 31 de Março". A mudança de nome não apaga a origem ligada à estrutura administrativa imposta, onde governadores biônicos implementavam políticas sem consulta popular.',
