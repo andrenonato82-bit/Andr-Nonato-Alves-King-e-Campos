@@ -27,16 +27,22 @@ const App: React.FC = () => {
         <section id="home" className="relative bg-historic-ink text-white py-24 px-4 overflow-hidden">
           
           {/* Watermark Map Background */}
-          <div className="absolute inset-0 z-0">
-            {/* Imagem Aérea de Boa Vista mostrando o traçado radial */}
+          <div className="absolute inset-0 z-0 pointer-events-none select-none">
+            {/* Fundo base escuro */}
+            <div className="absolute inset-0 bg-historic-ink"></div>
+            
+            {/* Imagem do Mapa (Vista Aérea) tratada como marca d'água */}
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boa_Vista_%28Roraima%29_%282%29.jpg" 
-              alt="Vista aérea do traçado urbano de Boa Vista" 
-              className="w-full h-full object-cover opacity-25 grayscale sepia brightness-50 contrast-125"
+              alt="Marca d'água do traçado urbano de Boa Vista" 
+              className="w-full h-full object-cover opacity-20 grayscale contrast-125 mix-blend-overlay"
             />
-            {/* Camadas de superposição para garantir legibilidade e tom azulado */}
-            <div className="absolute inset-0 bg-blue-900/30 mix-blend-color"></div>
-            <div className="absolute inset-0 bg-gradient-to-b from-historic-ink/90 via-historic-ink/60 to-historic-ink"></div>
+            
+            {/* Sobreposição Azul Sutil */}
+            <div className="absolute inset-0 bg-blue-900/20 mix-blend-screen"></div>
+            
+            {/* Gradiente para garantir legibilidade do texto central */}
+            <div className="absolute inset-0 bg-gradient-to-b from-historic-ink/95 via-historic-ink/80 to-historic-ink"></div>
           </div>
 
           <div className="max-w-4xl mx-auto text-center relative z-10">
