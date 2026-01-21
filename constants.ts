@@ -242,7 +242,7 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
       id: 'monumento-garimpeiro',
       title: 'Monumento ao Garimpeiro',
       category: 'Monumento',
-      imageUrl: 'https://picsum.photos/id/204/800/600',
+      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Monumento_ao_Garimpeiro_-_Centro_C%C3%ADvico.jpg/800px-Monumento_ao_Garimpeiro_-_Centro_C%C3%ADvico.jpg',
       officialVersion: 'Homenagem aos pioneiros que desbravaram o território em busca de minérios, impulsionando a economia e o crescimento demográfico de Roraima.',
       criticalAnalysis: 'Esta estátua materializa a ideologia do "vazio demográfico" e do progresso a qualquer custo. O garimpo, incentivado pelo regime militar, resultou em graves crises humanitárias para o povo Yanomami e contaminação ambiental.',
       reflectiveQuestion: 'É possível homenagear uma figura histórica sem ignorar os impactos negativos que sua atividade causou?'
