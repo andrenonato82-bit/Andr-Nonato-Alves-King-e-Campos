@@ -41,7 +41,7 @@ const App: React.FC = () => {
 
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 tracking-tight drop-shadow-lg">
-              Memória e Território <br/><span className="text-amber-500">em Roraima</span>
+              Guia de Memória <br/><span className="text-amber-500">e História de Roraima</span>
             </h1>
             <p className="text-xl md:text-2xl text-stone-200 font-light mb-8 max-w-2xl mx-auto drop-shadow-md">
               Uma investigação crítica sobre monumentos, escolas e avenidas que narram — e ocultam — a história da Ditadura Civil-Militar.
