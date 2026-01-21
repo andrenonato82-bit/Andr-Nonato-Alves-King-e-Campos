@@ -136,10 +136,10 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
       id: 'escola-major-alcides',
       title: 'Escola Est. Major Alcides',
       category: 'Escola',
-      // Imagem temática de sala de aula
-      imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1000&auto=format&fit=crop',
+      // Imagem de fachada escolar (substituindo a anterior). Você pode colar o link do blog aqui.
+      imageUrl: 'https://images.unsplash.com/photo-1596496050844-4610267d6565?q=80&w=1000&auto=format&fit=crop',
       mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Escola+Estadual+Major+Alcides+Rodrigues+dos+Santos+Boa+Vista+RR',
-      officialVersion: 'Homenagem ao Major Alcides Rodrigues dos Santos, comandante da Guarda Territorial e figura proeminente na segurança pública durante a fase territorial de Roraima.',
+      officialVersion: 'Instituição criada para atender a demanda educacional da expansão urbana, homenageando o Major Alcides Rodrigues dos Santos, comandante da Guarda Territorial e figura central na segurança pública do Território.',
       criticalAnalysis: 'A presença de patentes militares (Major) em nomes de escolas reforça a pedagogia da obediência e a naturalização da força policial dentro do ambiente educacional. Simboliza a "militarização da vida", onde a ordem castrense é apresentada como modelo superior à organização civil.',
       reflectiveQuestion: 'A escola deve ser um espaço de disciplina militar ou de desenvolvimento do pensamento crítico e liberdade?'
     },
