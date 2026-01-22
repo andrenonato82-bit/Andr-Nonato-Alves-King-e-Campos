@@ -39,6 +39,17 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
   locations: [
     // --- BAIRROS ---
     {
+      id: 'bairro-pintolandia',
+      title: 'Bairro Pintolândia',
+      category: 'Bairro',
+      // Imagem de bairro popular
+      imageUrl: 'https://images.unsplash.com/photo-1596489707255-a4f66551b8c8?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Bairro+Pintolandia+Boa+Vista+RR',
+      officialVersion: 'Um dos bairros mais populosos de Boa Vista, criado a partir de um conjunto habitacional idealizado pelo Governador Ottomar de Souza Pinto para atender famílias de baixa renda.',
+      criticalAnalysis: 'O nome "Pintolândia" (Terra do Pinto) é o ápice do personalismo e do populismo em Roraima. Ao batizar um bairro inteiro com seu sobrenome, o governador transformou o direito constitucional à moradia em uma "dádiva" pessoal, criando uma relação de clientelismo onde os moradores se sentem eternamente devedores ao líder político, prática típica do coronelismo repaginado.',
+      reflectiveQuestion: 'É democrático que um governante nomeie um bairro inteiro em auto-homenagem enquanto ainda está no poder?'
+    },
+    {
       id: 'bairro-31-marco',
       title: 'Bairro 31 de Março',
       category: 'Bairro',
@@ -63,6 +74,17 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
 
     // --- EDIFÍCIOS PÚBLICOS ---
     {
+      id: 'hospital-regional-sul-ottomar',
+      title: 'Hosp. Regional Sul Ottomar S. Pinto',
+      category: 'Edifício Público',
+      // Imagem temática de hospital
+      imageUrl: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Hospital+Regional+Sul+Ottomar+de+Souza+Pinto',
+      officialVersion: 'Unidade de saúde de referência na região sul do estado, nomeada em homenagem ao Brigadeiro Ottomar de Souza Pinto por seus serviços prestados ao desenvolvimento de Roraima.',
+      criticalAnalysis: 'A repetição exaustiva do nome de Ottomar em obras públicas (hospital, avenidas, bairros, escolas) configura um "culto à personalidade". Ottomar, oriundo da estrutura militar (Brigadeiro), manteve práticas centralizadoras. O uso da máquina pública para auto-promoção póstuma ou em vida distorce a memória coletiva, sugerindo que o Estado se confunde com a pessoa do governante.',
+      reflectiveQuestion: 'Quando tudo leva o nome do mesmo político, estamos celebrando a história ou construindo um mito?'
+    },
+    {
       id: 'palacio-helio-campos',
       title: 'Palácio Senador Hélio Campos',
       category: 'Edifício Público',
@@ -83,6 +105,17 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
       officialVersion: 'Maior complexo esportivo do estado, construído para promover o desporto e o lazer da juventude, batizado em homenagem ao governador Hélio Campos.',
       criticalAnalysis: 'A construção de grandes arenas esportivas (obras faraônicas) durante regimes autoritários serve frequentemente como propaganda de "desenvolvimento" e distração social ("pão e circo"). O nome reitera o personalismo político local, onde a infraestrutura pública serve de palanque para a perpetuação de nomes ligados à ditadura.',
       reflectiveQuestion: 'Obras grandiosas servem à população ou à imagem dos governantes que as constroem?'
+    },
+    {
+      id: 'vila-olimpica-roberto-marinho',
+      title: 'Vila Olímpica Roberto Marinho',
+      category: 'Edifício Público',
+      // Imagem temática de complexo esportivo/pista de atletismo
+      imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Vila+Olimpica+Roberto+Marinho+Boa+Vista+RR',
+      officialVersion: 'Considerado um dos maiores e mais modernos complexos esportivos da Região Norte, oferecendo espaço para atletismo, lazer e qualidade de vida. O nome homenageia o empresário e jornalista Roberto Marinho, fundador das Organizações Globo, reconhecido por sua trajetória na comunicação brasileira.',
+      criticalAnalysis: 'A homenagem oculta o papel decisivo de Roberto Marinho na articulação e apoio ao Golpe Militar de 1964. Seu jornal publicou o editorial "Ressurge a Democracia" celebrando a derrubada de um governo eleito. Durante a ditadura, seu império de mídia cresceu sob a tutela do regime, ajudando a legitimar a censura e a ocultar a repressão política em troca de concessões públicas.',
+      reflectiveQuestion: 'Por que espaços públicos de lazer, que representam a liberdade do corpo, carregam o nome de quem ajudou a silenciar a liberdade de expressão?'
     },
     {
       id: 'hgr-hospital-base',
@@ -121,6 +154,17 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
     },
 
     // --- ESCOLAS ---
+    {
+      id: 'escola-olavo-brasil-filho',
+      title: 'Escola Est. Olavo Brasil Filho',
+      category: 'Escola',
+      // Imagem temática de escola/institucional
+      imageUrl: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Escola+Estadual+Olavo+Brasil+Filho+Boa+Vista+RR',
+      officialVersion: 'Instituição de ensino que homenageia Olavo Brasil Filho, figura política que exerceu o cargo de Prefeito de Boa Vista. Sua gestão é lembrada pela expansão urbana e obras de infraestrutura durante a fase do Território Federal.',
+      criticalAnalysis: 'Olavo Brasil Filho foi um prefeito "biônico" (nomeado, não eleito) pelo Governador e filiado à ARENA, partido de sustentação da Ditadura Militar. O nome da escola eterniza uma elite política que governou sem legitimidade popular, reforçando a ideia de que o acesso ao poder se dá por indicação e lealdade ao regime, não pelo voto.',
+      reflectiveQuestion: 'Uma escola pública deve homenagear políticos que governaram sem serem escolhidos pelo povo?'
+    },
     {
       id: 'escola-mario-david-andreazza',
       title: 'Escola Est. Mário David Andreazza',
@@ -178,6 +222,57 @@ export const CONTEUDO_MEMORIA: ContentMemory = {
     },
 
     // --- LOGRADOUROS ---
+    {
+      id: 'rua-fernando-ramos-pereira',
+      title: 'Rua Gov. Fernando Ramos Pereira',
+      category: 'Logradouro',
+      // Imagem temática de rua
+      imageUrl: 'https://images.unsplash.com/photo-1572911762193-27a3c757c2a7?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Governador+Fernando+Ramos+Pereira+Boa+Vista+RR',
+      officialVersion: 'Homenagem ao General Fernando Ramos Pereira, que atuou como Governador do Território Federal de Roraima (1974-1979), período de intenso desenvolvimento e obras públicas.',
+      criticalAnalysis: 'Fernando Ramos Pereira foi um General nomeado pelo regime militar. Sua gestão, embora associada a obras, carecia de legitimidade popular. Nomear uma rua em sua homenagem é naturalizar que militares exerçam cargos civis sem passar pelo escrutínio das urnas.',
+      reflectiveQuestion: 'O desenvolvimento trazido por um governo não eleito justifica a falta de liberdade política?'
+    },
+    {
+      id: 'rua-antonio-maciel',
+      title: 'Rua Antônio Maciel',
+      category: 'Logradouro',
+      imageUrl: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Antonio+Maciel+Boa+Vista+RR',
+      officialVersion: 'Via que homenageia Antônio Maciel, prefeito de Boa Vista que contribuiu para a organização urbana da cidade durante o período territorial.',
+      criticalAnalysis: 'Antônio Maciel foi um prefeito nomeado ("biônico") pelo governador e filiado à ARENA (Aliança Renovadora Nacional), partido de sustentação da ditadura. Sua administração servia aos interesses do regime federal, e não necessariamente aos anseios da população local, que não tinha o direito de escolher seu prefeito.',
+      reflectiveQuestion: 'Quem um prefeito nomeado deve agradar: o povo da cidade ou o governador que o colocou no cargo?'
+    },
+    {
+      id: 'rua-aristoteles-carneiro',
+      title: 'Rua Aristóteles de Lima Carneiro',
+      category: 'Logradouro',
+      imageUrl: 'https://images.unsplash.com/photo-1549557277-c992d9d968b5?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Aristoteles+de+Lima+Carneiro+Boa+Vista+RR',
+      officialVersion: 'Homenagem a Aristóteles de Lima Carneiro, que serviu como prefeito de Boa Vista, auxiliando na expansão e modernização da capital.',
+      criticalAnalysis: 'Outro exemplo de prefeito da ARENA nomeado sem voto popular. A existência de várias ruas com nomes de prefeitos biônicos cria uma falsa sensação de normalidade democrática no passado de Roraima, ocultando que, durante décadas, o executivo municipal foi uma extensão burocrática do governo militar central.',
+      reflectiveQuestion: 'A cidade lembra dos líderes comunitários da época com a mesma intensidade que lembra dos prefeitos impostos?'
+    },
+    {
+      id: 'rua-jose-hamilton-gondim',
+      title: 'Rua José Hamilton Gondim',
+      category: 'Logradouro',
+      imageUrl: 'https://images.unsplash.com/photo-1542281286-9e0a56e2e1a1?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Jose+Hamilton+Gondim+Boa+Vista+RR',
+      officialVersion: 'Logradouro em memória de José Hamilton Gondim, prefeito de Boa Vista no início da década de 80, reconhecido por sua atuação administrativa.',
+      criticalAnalysis: 'Gondim foi prefeito pelo PDS (Partido Democrático Social), sucessor direto da ARENA. Mesmo com a "abertura", a estrutura de poder se manteve: prefeitos continuavam sendo nomeados por governadores alinhados ao regime. É a prova de que a mudança de sigla partidária não significou, de imediato, a democratização do poder local.',
+      reflectiveQuestion: 'Mudar o nome do partido muda a prática política de governar sem ouvir o povo?'
+    },
+    {
+      id: 'rua-almir-queiros',
+      title: 'Rua Almir Queirós',
+      category: 'Logradouro',
+      imageUrl: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1000&auto=format&fit=crop',
+      mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Almir+Queiros+Boa+Vista+RR',
+      officialVersion: 'Homenagem a Almir Queirós, prefeito de Boa Vista durante o período de transição democrática, ligado ao PMDB.',
+      criticalAnalysis: 'Almir Queirós, do PMDB (antigo MDB, oposição consentida), também foi um prefeito nomeado. Isso ilustra as contradições da transição brasileira: mesmo partidos de oposição, ao assumirem o poder na estrutura dos Territórios, mantiveram a prática de indicar gestores sem consulta popular, perpetuando o modelo tutelar sobre Roraima.',
+      reflectiveQuestion: 'A transição para a democracia foi completa quando as práticas de nomeação continuaram sendo usadas?'
+    },
     {
       id: 'av-costa-e-silva',
       title: 'Av. Presidente Costa e Silva',
